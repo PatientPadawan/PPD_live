@@ -3526,9 +3526,13 @@ input, select, textarea {
 				-moz-align-self: -moz-stretch;
 				-webkit-align-self: -webkit-stretch;
 				-ms-align-self: -ms-stretch;
-				align-self: stretch;
-				min-width: 50%;
+				/* align-self: stretch; */
+				min-width: 30%;
+				max-width: 30%;
 				margin: 0;
+				padding: 20px;
+				
+
 			}
 
 				.spotlights .spotlight .image.alt {
@@ -3562,7 +3566,7 @@ input, select, textarea {
 				}
 
 					.spotlights .spotlight .image {
-						min-width: 100%;
+						min-width: 50%;
 					}
 
 						.spotlights .spotlight .image.alt {
