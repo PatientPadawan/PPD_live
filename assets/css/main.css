@@ -3526,9 +3526,15 @@ input, select, textarea {
 				-moz-align-self: -moz-stretch;
 				-webkit-align-self: -webkit-stretch;
 				-ms-align-self: -ms-stretch;
-				align-self: stretch;
-				min-width: 50%;
+				min-width: 30%;
+				max-width: 85%;
 				margin: 0;
+			}
+
+			@media screen and (min-width: 981px) {
+				#aPhoto, #vPhoto {
+					padding-bottom: 5rem;
+				}
 			}
 
 				.spotlights .spotlight .image.alt {
@@ -3562,7 +3568,9 @@ input, select, textarea {
 				}
 
 					.spotlights .spotlight .image {
-						min-width: 100%;
+						min-width: 50%;
+						max-width: 85%;
+						padding-top: 1.25rem;
 					}
 
 						.spotlights .spotlight .image.alt {
