@@ -3526,13 +3526,10 @@ input, select, textarea {
 				-moz-align-self: -moz-stretch;
 				-webkit-align-self: -webkit-stretch;
 				-ms-align-self: -ms-stretch;
-				/* align-self: stretch; */
 				min-width: 30%;
 				max-width: 30%;
 				margin: 0;
-				padding: 20px;
-				
-
+				padding: 1.25rem;
 			}
 
 				.spotlights .spotlight .image.alt {
