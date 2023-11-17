@@ -3606,10 +3606,6 @@ input, select, textarea {
 
 			}
 
-			@media screen and (max-width: 980px) {
-				/* DONT FORGET ME!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-			}
-
 /* Header */
 
 	@-moz-keyframes reveal-header {
